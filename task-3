@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-3</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="task-3.css">
+    <!-- slick -->
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+</head>
+
+<body>
+    <!-- <div class="container-fluid"> -->
+    <div class="grid-container _1">
+        <div class="heading">
+            <h6>Free Aus Shipping For Orders Over $100 I Get 10% Off your first order - sign up today</h6>
+        </div>
+    </div>
+    <div class="grid-containe _2">
+        <div class="first_c">
+            <a href="#"><img src="Homepage Assets/facebook (1).png" class="img_1" height="15px" width="15px"></a>
+            <a href="#"><img src="Homepage Assets/twitter (1).png" class="img_1" height="15px" width="15px"></a>
+            <a href="#"><img src="Homepage Assets/pintrest.png" class="img_1" height="15px" width="15px"></a>
+            <a href="#"><img src="Homepage Assets/instagram-new.png" class="img_1" height="15px" width="15px"></a>
+        </div>
+        <div class="sec_c">
+            <img src="Homepage Assets/Logo.png">
+        </div>
+        <div class="thir_c">
+            <a href="#"><img src="Homepage Assets/Search.png" class="img_2" height="15px" width="15px"></a>
+            <a href="#"><img src="Homepage Assets/Account.png" class="img_2" height="15px" width="15px"></a>
+            <a href="#"><img src="Homepage Assets/Wishlist.png" class="img_2" height="15px" width="15px"></a>
+            <a href="#"><img src="Homepage Assets/Cart.png" class="img_2-" height="15px" width="15px"
+                    style="object-fit: contain;"></a>
+        </div>
+    </div>
+    <div class="grid-container _3">
+        <div class="nav_s">
+            <ul>
+                <div class="gaps">
+                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="#">CATALOG</a>
+                    <a class="nav-link" href="#">RETAILERS</a>
+                    <a class="nav-link" href="#">ABOUT</a>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1" style="border: 2px solid white;
+                border-radius: 5px;"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+                style="border: 2px solid white;
+                border-radius: 5px;"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+                style="border: 2px solid white;
+                border-radius: 5px;"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"
+                style="border: 2px solid white;
+                border-radius: 5px;"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"
+                style="border: 2px solid white;
+                border-radius: 5px;"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active _321">
+                <img src="/Task-3./Barba Brand/Homepage Assets/Slider-01.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block _123">
+                    <div class="container _spara">
+                        <div class="text1_img">
+                            <h7>Welcome To Barbra Brand</h7>
+                        </div>
+                        <div class="text2_img">
+                            <h5>Your Barba Brand Favorite Brand Slider Title Here</h5>
+                        </div>
+                        <div class="btn_1b">
+                            <a href="#" class="_1b">Shope Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item _321">
+                <img src="/Task-3./Barba Brand/Homepage Assets/Slider-01.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block _123">
+                    <div class="container _spara">
+                        <div class="text1_img">
+                            <h7>Welcome To Barbra Brand</h7>
+                        </div>
+                        <div class="text2_img">
+                            <h5>Your Barba Brand Favorite Brand Slider Title Here</h5>
+                        </div>
+                        <div class="btn_1b">
+                            <a href="#" class="_1b">Shope Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item _321">
+                <img src="/Task-3./Barba Brand/Homepage Assets/Slider-01.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block _123">
+                    <div class="container _spara">
+                        <div class="text1_img">
+                            <h7>Welcome To Barbra Brand</h7>
+                        </div>
+                        <div class="text2_img">
+                            <h5>Your Barba Brand Favorite Brand Slider Title Here</h5>
+                        </div>
+                        <div class="btn_1b">
+                            <a href="#" class="_1b">Shope Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item _321">
+                <img src="/Task-3./Barba Brand/Homepage Assets/Slider-01.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block _123">
+                    <div class="container _spara">
+                        <div class="text1_img">
+                            <h7>Welcome To Barbra Brand</h7>
+                        </div>
+                        <div class="text2_img">
+                            <h5>Your Barba Brand Favorite Brand Slider Title Here</h5>
+                        </div>
+                        <div class="btn_1b">
+                            <a href="#" class="_1b">Shope Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item _321">
+                <img src="/Task-3./Barba Brand/Homepage Assets/Slider-01.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block _123">
+                    <div class="container _spara">
+                        <div class="text1_img">
+                            <h7>Welcome To Barbra Brand</h7>
+                        </div>
+                        <div class="text2_img">
+                            <h5>Your Barba Brand Favorite Brand Slider Title Here</h5>
+                        </div>
+                        <div class="btn_1b">
+                            <a href="#" class="_1b">Shope Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Left and right controls/icons -->
+    <!-- </div> -->
+    <div class="body1">
+        <div class="b_seller pt-5">
+
+            <div class="grid-contaioner _4">
+                <div class="headbs">
+                    <h4>Best Sellers</h4>
+                </div>
+                <div class="anch-">
+                    <a class="nav-link2" href="#">ALL</a>
+                    <a class="nav-link2" href="#">HAIR PRODUCTS</a>
+                    <a class="nav-link2" href="#">GEARS</a>
+                    <a class="nav-link2" href="#">TOOLS</a>
+                </div>
+            </div>
+
+            <div class="slick_img">
+                <!-- <div class="gap_slick"> -->
+                <div class="slick_1">
+                    <div class="parant">
+                        <img src="Homepage Assets/Best Sellers-01.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="children" alt="error"></a> -->
+                    </div>
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="add--">
+                        <h7>ADD TO CART</h7>
+                        <img class="addd-" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="slick_2">
+                    <div class="parant">
+                        <img src="Homepage Assets/Best Sellers-02.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="children" alt="error"></a> -->
+                    </div>
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="add--">
+                        <h7>ADD TO CART</h7>
+                        <img class="addd-" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="slick_3">
+                    <div class="parant">
+                        <img src="Homepage Assets/Best Sellers-03.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="children" alt="error"></a> -->
+                    </div>
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="add--">
+                        <h7>ADD TO CART</h7>
+                        <img class="addd-" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="slick_4">
+                    <div class="parant">
+                        <img src="Homepage Assets/Best Sellers-04.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="children" alt="error"></a> -->
+                    </div>
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="add--">
+                        <h7>ADD TO CART</h7>
+                        <img class="addd-" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="slick_5">
+                    <div class="parant">
+                        <img src="Homepage Assets/Best Sellers-01.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="children" alt="error"></a> -->
+                    </div>
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="add--">
+                        <h7>ADD TO CART</h7>
+                        <img class="addd-" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="slick_6">
+                    <div class="parant">
+                        <img src="Homepage Assets/Best Sellers-02.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="children" alt="error"></a> -->
+                    </div>
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="add--">
+                        <h7>ADD TO CART</h7>
+                        <img class="addd-" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+            <div class="grid-container _2b">
+                <button class="btn_2">VIEW ALL</button>
+            </div>
+        </div>
+
+        <div class="grid-container _5">
+            <!-- <div class="container _2c"> -->
+            <div class="abc">
+                <div class="fir_1">
+                    <img class="hairimg" src="Homepage Assets/Hair Products.png" height="100%" width=100%>
+                    <div class="hair">
+                        <h5>Hair Products</h5>
+                        <div class="anch _a1"><a href="#">Shope Now</a></div>
+                    </div>
+                </div>
+
+                <div class="sec_2">
+                    <img class="hairimg2" src="Homepage Assets/Gears.png" height="100%" width=100%>
+                    <div class="gear">
+                        <h5>Gears</h5>
+                        <div class="anch _a2"><a href="#">Shope Now</a></div>
+                    </div>
+                </div>
+
+                <div class="th_3">
+                    <img class="hairimg3" src="Homepage Assets/Tools.png" height="100%" width=100%>
+                    <div class="tools">
+                        <h5>Tools</h5>
+                        <div class="anch _a3"><a href="#">Shope Now</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="newim">
+            <div class="newarr">
+                <h6>New Arrivals</h6>
+            </div>
+            <div class="grid-container _6">
+                <div class="newimg">
+                    <div class="paran1">
+                        <img src="Homepage Assets/New Arrivals-01.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child1" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+
+                </div>
+                <div class="newimg">
+                    <div class="paran2">
+                        <img src="Homepage Assets/New Arrivals-02.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child2" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="newimg">
+                    <div class="paran3">
+                        <img src="Homepage Assets/New Arrivals-03.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child3" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="newimg">
+                    <div class="paran4">
+                        <img src="Homepage Assets/New Arrivals-04.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child4" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="newimg">
+                    <div class="paran5">
+                        <img src="Homepage Assets/New Arrivals-05.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child5" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="newimg">
+                    <div class="paran6">
+                        <img src="Homepage Assets/New Arrivals-06.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child6" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="newimg">
+                    <div class="paran7">
+                        <img src="Homepage Assets/New Arrivals-07.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child7" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class="b-b" src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+                <div class="newimg">
+                    <div class="paran8">
+                        <img src="Homepage Assets/New Arrivals-08.png" height="100%" width="100%">
+                        <!-- <a href="#"><img src="Homepage Assets/Wishlist.png" class="child8" alt="error"></a> -->
+                    </div>
+
+                    <div class="_hh4">
+                        <h7>Your Store Product Full Title Here</h7>
+                    </div>
+                    <div class="_zz">
+                        <p>$99.99</p>
+                    </div>
+                    <div class="fcon">
+                        <img src="Homepage Assets/Rating Star.png" class="_str" width="80px">
+                        <p class="_gra">99 Reviews</p>
+                    </div>
+                    <div class="a-a">
+                        <h7>ADD TO CART</h7>
+                        <img class=b-b src="Homepage Assets/icons8-arrow-24.png" height="15px" width="15px">
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container _3b">
+                <button class="btn_3">VIEW ALL</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="banner">
+        <div class="_4321">
+            <img src="Homepage Assets/Sale Banner.png" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block _1234">
+                <div class="container _spara">
+                    <div class="text-_img">
+                        <h7>Welcome To Barbra Brand</h7>
+                    </div>
+                    <div class="text2_img">
+                        <h5>Your Barba Brand Favorite Brand Slider Title Here</h5>
+                    </div>
+                    <div class="btn_1b_">
+                        <a href="#" class="_1b_">Shope Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid _7">
+        <div class="zzz">
+            <h4 class="aaaa">For Our Happy Customers</h4>
+            <p class="text_7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, facere nostrum! Hic
+                eius dolor vitae amet consequatur laboriosam. Eius, fugit!sit, amet consectetur adipisicing elit.
+                Numquam, facere nostrum! Hic eius dolor vitae amet consequatur laboriosam.</p>
+        </div>
+
+        <div class="cgard-roup">
+            <div class="card">
+                <img src="Homepage Assets/Client-01.png" class="card-img-top">
+                <div class="inner1">
+                    <h6 class="card-title">Client Name</h6>
+                    <p class="para--">Ausgezeichnetes produkts</p>
+                    <div class="star"><img src="Homepage Assets/Rating Star.png"></div>
+                    <div class="qute"><img src="Homepage Assets/Quote.png"></div>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, facilis
+                        aliquid. Odio nemo explicabo nulla.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Homepage Assets/Client-02.png" class="card-img-top">
+                <div class="inner1">
+                    <h6 class="card-title">Client Name</h6>
+                    <p class="para--">Ausgezeichnetes produkts</p>
+                    <div class="star"><img src="Homepage Assets/Rating Star.png"></div>
+                    <div class="qute"><img src="Homepage Assets/Quote.png"></div>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, facilis
+                        aliquid. Odio nemo explicabo nulla.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Homepage Assets/Client-03.png" class="card-img-top">
+                <div class="inner1">
+                    <h6 class="card-title">Client Name</h6>
+                    <p class="para--">Ausgezeichnetes produkts</p>
+                    <div class="star"><img src="Homepage Assets/Rating Star.png"></div>
+                    <div class="qute"><img src="Homepage Assets/Quote.png"></div>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, facilis
+                        aliquid. Odio nemo explicabo nulla.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Homepage Assets/Client-04.png" class="card-img-top">
+                <div class="inner1">
+                    <h6 class="card-title">Client Name</h6>
+                    <p class="para--">Ausgezeichnetes produkts</p>
+                    <div class="star"><img src="Homepage Assets/Rating Star.png"></div>
+                    <div class="qute"><img src="Homepage Assets/Quote.png"></div>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, facilis
+                        aliquid. Odio nemo explicabo nulla.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container _8">
+        <div class="image4">
+            <img src="Homepage Assets/shipping1.png" class="image1">
+            <div class="bbb">
+                <h6 class="head1">FAST SHIPPING</h6>
+                <p class="p1">We ship world wide</p>
+            </div>
+        </div>
+        <div class="image4">
+            <div class="image4">
+                <img src="Homepage Assets/shipping2.png" class="image1">
+                <div class="bbb">
+                    <h6 class="head1">FREE RETURN</h6>
+                    <p class="p1">Free return with pick-up service</p>
+                </div>
+            </div>
+        </div>
+        <div class="image4">
+            <div class="image4">
+                <img src="Homepage Assets/shipping3.png" class="image1">
+                <div class="bbb">
+                    <h6 class="head1">GUARANTEED AUTHENTICITY</h6>
+                    <p class="p1">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image4">
+            <div class="image4">
+                <img src="Homepage Assets/shipping4.png" class="image1">
+                <div class="bbb">
+                    <h6 class="head1">PAYMENT SECURE</h6>
+                    <p class="p1">We ensure secure payment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container _9">
+        <div class="hhh">
+            <h4>Follow On instagram</h4>
+        </div>
+        <div class="an">
+            <div class="ann">
+                <a href="#">@Barba Brand</a>
+            </div>
+            <div class="dis">
+                <a href="#" class="disabled-link">#Barba Brand</a>
+            </div>
+        </div>
+
+        <div class="_9ima">
+            <div class="image-1">
+                <img src="Homepage Assets/Insta-01.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-2">
+                <img src="Homepage Assets/Insta-02.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-3">
+                <img src="Homepage Assets/Insta-03.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-4">
+                <img src="Homepage Assets/Insta-04.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-5">
+                <img src="Homepage Assets/Insta-05.png" alt="" height="100%" width="100%">
+                <a href="#"><img class="ins-" src="Homepage Assets/Instagram.png" height="70px"></a>
+            </div>
+            <div class="image-6">
+                <img src="Homepage Assets/Insta-06.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-7">
+                <img src="Homepage Assets/Insta-07.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-8">
+                <img src="Homepage Assets/Insta-08.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="image-9">
+                <img src="Homepage Assets/Insta-09.png" alt="" height="100%" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="_4b">
+        <a class="btn_4" href="#">Shope Instagram</a>
+    </div>
+
+    <!-- container-fluid -->
+    <!-- </div> -->
+
+
+    <footer>
+        <div class="body2">
+            <div class="grid-container _10">
+                <div class="cl1">
+                    <nav class="nav_1">
+                        <div class="he1">
+                            <h6>EXPLORE</h6>
+                        </div>
+                        <hr>
+                        <div><a href="#" class="nav- active">Inspirationa</a></div>
+                        <div><a href="#" class="nav-">Terms of Service</a></div>
+                        <div><a href="#" class="nav-">Privacy Policy</a></div>
+                        <div><a href="#" class="nav-">Return Policy</a></div>
+                        <div><a href="#" class="nav-">Shipping Information</a></div>
+
+                    </nav>
+                </div>
+                <div class="cl2">
+                    <nav class="nav_2">
+                        <div class="HE2">
+                            <h6>COLLECTIONS</h6>
+                        </div>
+                        <hr>
+                        <div><a href="#" class="nav-">Haire Product</a></div>
+                        <div><a href="#" class="nav-">Gears</a></div>
+                        <div><a href="#" class="nav-">Tools</a></div>
+                        <div><a href="#" class="nav-">New Arrival</a></div>
+                        <div><a href="#" class="nav-">Best Sellers</a></div>
+
+                    </nav>
+                </div>
+                <div class="cl3">
+                    <nav class="nav_3">
+                        <div class="HE3">
+                            <h6>CONTECT WITH US</h6>
+                        </div>
+                        <hr>
+                        <div class="mmm">
+                            <P>Be the first to now about our exciting new designes. Special events, Stores opening and
+                                much
+                                more.</P>
+                        </div>
+                        <div class="signup">
+                            <input class="place" type="email" id="myEmail" placeholder="join our mailing list">
+                            <a href="#" class="signn">Sign Up</a>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+            <hr>
+            <!-- </div> -->
+
+            <div class="last">
+                <div class="first_l">
+                    <a href="#"><img src="Homepage Assets/facebook (1).png" class="img_1" height="15px"
+                            width="15px"></a>
+                    <a href="#"><img src="Homepage Assets/twitter (1).png" class="img_1" height="15px" width="15px"></a>
+                    <a href="#"><img src="Homepage Assets/pintrest.png" class="img_1" height="15px" width="15px"></a>
+                    <a href="#"><img src="Homepage Assets/instagram-new.png" class="img_1" height="15px"
+                            width="15px"></a>
+                    <div class="lpara">
+                        @ 2022 <a href="#" class="_la"> . Barba Brand . </a>All Right Reversed.
+                    </div>
+                </div>
+                <div class="sec_l">
+                    <img src="Homepage Assets/Logo.png">
+                </div>
+                <div class="thir_l">
+                    <div class="btn_ll">
+                        <a href="#" class="btn_l">English</a>
+                        <a href="#" class="btn_l">USD $</a>
+                    </div>
+                    <div class="thir_ll">
+                        <a href="#"><img src="Homepage Assets/Payment Cards.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="slick.min.js" -></script>
+
+    <script>
+        $('.slick_img').slick({
+            dots: false,
+            infinite: false,
+            arrows: false,
+            speed: 300,
+            // autoplay: true,
+            // autoplaySpeed: 2000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>
