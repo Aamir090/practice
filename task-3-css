@@ -1,0 +1,964 @@
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(DejaVu Sans);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+    /* font-weight: 500; */
+
+
+.body1 {
+    /* background-color: rgb(203, 205, 209); */
+}
+
+._1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    color: white;
+    justify-items: center;
+}
+
+.heading h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+._2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 20px;
+    /* height: 400px; */
+}
+
+.first_c {
+    display: flex;
+    padding-left: 40px;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.sec_c {
+    display: grid;
+    justify-items: center;
+    align-items: end;
+}
+
+.thir_c {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-right: 40px;
+    gap: 25px;
+}
+
+._3c {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav_s {
+    /* text-align: center; */
+    padding-top: 20px;
+    font-size: small;
+}
+
+/* a:nav-link :hover {
+    color: rgb(76, 240, 76);
+} */
+
+li {
+    display: inline;
+}
+
+.nav-link {
+    color: black;
+    display: inline;
+}
+
+/* a:nav-link :hover {
+    color: rgb(10, 205, 23);
+} */
+
+.gaps {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* .img_2-::after {
+    content: "0";
+    background-color: green;
+    font-size: larger;
+} */
+
+._321 {
+    position: relative;
+}
+
+._123 {
+    position: absolute;
+    width: 300px;
+    text-align: left;
+    color: white;
+}
+
+.carousel-caption {
+    left: 4%;
+    bottom: 80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+    justify-content: flex-end;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: rgb(2, 247, 2);
+}
+
+/* .carousel-indicators button{
+    display: flex;
+    gap: 10px;
+} */
+
+/* .carousel-indicators [data-bs-target] :active{
+    background-color: rgb(3, 248, 3);
+} */
+/* .carousel-indicators :hover{
+    background-color: rgb(5, 208, 5);
+} */
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 4%;
+    margin-bottom: 2rem;
+    /* margin-left: 15%; */
+    list-style: none;
+}
+
+.btn_1b {
+    margin-top: 25px;
+}
+
+._1b {
+    /* font-family: "DejaVu Sans"; */
+    background-color: rgb(10, 205, 23);
+    height: 20px;
+    width: 30px;
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.text1_img h7 {
+    font-size: small;
+}
+
+
+
+._4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 100px; */
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 18px;
+}
+
+
+.headbs {
+    display: grid;
+    align-items: end;
+    /* margin: 0 0 0 !important; */
+}
+
+.headbs h4 {
+    color: rgb(75, 75, 77);
+}
+
+.anch- {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    /* padding-right: 50px; */
+    font-size: smaller;
+    gap: 40px;
+}
+
+.nav-link2 {
+    color: rgb(84, 84, 86);
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: rgb(10, 205, 23);
+} */
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick_img {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    /* gap: 10px; */
+}
+
+/* .gap_slick {
+    gap: 3px;
+} */
+
+._hh4 {
+    padding-top: 18px;
+}
+
+._hh4 h7 {
+    font-size: small;
+    color: rgb(60, 60, 65);
+}
+
+._zz p {
+    margin: 0px 0px 0px !important;
+    font-size: smaller;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+.fcon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+._gra {
+    margin: 0px 0px 0px !important;
+    font-size: smaller;
+    left: -42px;
+    font-size: smaller;
+    position: relative;
+    font-weight: 350;
+}
+
+.add-- h7 {
+    font-size: smaller;
+    /* position: relative; */
+    color: rgb(132, 132, 132);
+
+}
+
+.add-- {
+    display: flex;
+    position: relative;
+}
+
+.addd- {
+    position: absolute;
+    left: 90px;
+    top: 3px;
+}
+
+.a-a h7 {
+    font-size: small;
+    color: rgb(132, 132, 132);
+}
+
+._2b {
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn_2 {
+    /* font-family: "DejaVu Sans"; */
+    background-color: rgb(10, 205, 23);
+    color: white;
+    /* height: 20px;
+    width: 30px;*/
+    border: none;
+    text-decoration: none;
+    /* padding-left: 8px; */
+    /* padding-right: 8px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 3px; */
+    /* font-size: small; */
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.parant {
+    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+/* .children {
+    position: absolute;
+    bottom: 216px;
+    left: 219px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+} */
+
+._5 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+
+.abc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+.fir_1 {
+    position: relative;
+}
+
+._a1 {
+    padding-bottom: 25px;
+}
+
+.hair {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+}
+
+.hair h5 {
+    margin: 0% 0%;
+    padding-bottom: 20px;
+}
+
+.sec_2 {
+    position: relative;
+}
+
+._a2 {
+    padding-bottom: 25px;
+}
+
+.gear {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+}
+
+.gear h5 {
+    margin: 0% 0%;
+    padding-bottom: 20px;
+}
+
+.th_3 {
+    position: relative;
+}
+
+._a3 {
+    padding-bottom: 25px;
+}
+
+.tools {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    color: white;
+}
+
+.tools h5 {
+    margin: 0% 0%;
+    padding-bottom: 20px;
+}
+
+.abc a {
+    color: white;
+    background-color: rgb(10, 205, 23);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.newim {
+    padding-top: 70px;
+}
+
+.newarr {
+    text-align: center;
+    padding-bottom: 13px;
+    color: rgb(76, 75, 75);
+}
+
+._6 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 100px;
+    column-gap: 30px;
+    justify-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+}
+
+.adddd {
+    position: relative;
+    left: 90px;
+    bottom: 4px;
+}
+
+.child1 {
+    position: relative;
+    bottom: 236px;
+    left: 215px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child2 {
+    position: relative;
+    bottom: 236px;
+    left: 206px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child3 {
+    position: relative;
+    bottom: 236px;
+    left: 206px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child4 {
+    position: relative;
+    bottom: 236px;
+    left: 215px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child5 {
+    position: relative;
+    bottom: 236px;
+    left: 215px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child6 {
+    position: relative;
+    bottom: 236px;
+    left: 215px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child7 {
+    position: relative;
+    bottom: 236px;
+    left: 215px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.child8 {
+    position: relative;
+    bottom: 236px;
+    left: 206px;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+._3b {
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.btn_3 {
+    /* font-family: "DejaVu Sans"; */
+    background-color: rgb(10, 205, 23);
+    color: white;
+    /* height: 20px;
+    width: 30px;*/
+    border: none;
+    text-decoration: none;
+    /* padding-left: 8px; */
+    /* padding-right: 8px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 3px; */
+    /* font-size: small; */
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+._4321 {
+    position: relative;
+}
+
+._1234 {
+    position: absolute;
+    width: 300px;
+    text-align: left;
+    color: white;
+}
+
+.carousel-caption {
+    left: 4%;
+    bottom: 80px;
+}
+
+.btn_1b_ {
+    padding-top: 16px;
+}
+
+._1b_ {
+    /* font-family: "DejaVu Sans"; */
+    color: white;
+    background-color: rgb(10, 205, 23);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+
+.text-_img h7 {
+    font-size: small;
+}
+
+.zzz {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text_7 {
+    color: rgb(136, 136, 138);
+}
+
+.cgard-roup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    display: grid;
+    height: 250px;
+    gap: 5px;
+    background-color: rgb(250, 250, 250);
+}
+
+.card-img-top {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 214px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.para-- {
+    text-align: center;
+    color: rgb(136, 136, 138);
+    /* padding: 0px; */
+    /* margin: 0%; */
+}
+
+.star {
+    text-align: center;
+}
+
+.qute {
+    display: flex;
+    height: 18px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+
+}
+
+.card-text {
+    text-align: center;
+    font-size: small;
+    color: rgb(172, 170, 170);
+    /* padding-left: 20px; */
+}
+
+._8 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    /* justify-items: center; */
+    column-gap: 70px;
+    background-color: rgb(246, 247, 248);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    font-size: smaller;
+    color: rgb(145, 145, 145);
+}
+
+.head1 {
+    margin-bottom: 1px;
+}
+
+.image1 {
+    position: relative;
+    /* left: 20px; */
+    height: 20px;
+}
+
+.image4 {
+    position: relative;
+}
+
+.bbb {
+    position: absolute;
+    left: 40px;
+    top: 1px;
+}
+
+.image4 h6 {
+    font-size: small;
+}
+
+._9 {
+    padding-top: 50px;
+}
+
+.hhh {
+    text-align: center;
+}
+
+.an {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+
+.ann a {
+    text-align: center;
+
+    color: rgb(10, 205, 23);
+}
+
+.dis a {
+    color: gray;
+}
+
+._9ima {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.image-3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.image-4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.image-5 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
+
+.image-5 {
+    position: relative;
+}
+
+.ins- {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 42%;
+}
+
+.image-6 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.image-7 {
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
+}
+
+._4b {
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.btn_4 {
+    /* font-family: "DejaVu Sans"; */
+    background-color: rgb(10, 205, 23);
+    color: white;
+    /* height: 20px;
+    width: 30px;*/
+    border: none;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+.body2 {
+    background-color: rgb(246, 247, 248);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    /* border-bottom: 1px solid rgb(136, 136, 138); */
+}
+
+hr {
+    color: rgb(145, 145, 145);
+}
+
+._10 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav- {
+    color: rgb(60, 60, 65);
+    text-decoration: none;
+    font-size: small;
+}
+
+.mmm {
+    color: rgb(60, 60, 65);
+    font-size: small;
+}
+
+._10 h5 {
+    color: rgb(60, 60, 65);
+}
+
+.place {
+    
+    /* padding-top: 15px; */
+    /* width: 250px; */
+    width: 245px;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 4px;
+    font-size: small;
+}
+
+.signn {
+    /* position: absolute; */
+    /* left: ; */
+    bottom: 0px;
+    background-color: rgb(10, 205, 23);
+    color: white;
+    width: 25%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* height: 20%; */
+    /* width: 75%; */
+    border: none;
+    text-decoration: none;
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px; */
+    font-size: smaller;
+
+}
+
+
+
+.signup {
+    display: inline-flex;
+    margin-top: 40px;
+    /* position: relative; */
+    width: 100%;
+    height: 30%;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.first_l {
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* justify-content: start; */
+}
+
+.lpara {
+    padding-top: 44px;
+    font-size: small;
+    color: rgb(60, 60, 65);
+}
+
+._la {
+    color: rgb(10, 205, 23);
+}
+
+.sec_l {
+    display: grid;
+    justify-items: center;
+    align-items: end;
+}
+
+.thir_ll {
+    padding-top: 44px;
+    text-align: end;
+}
+
+.btn_ll {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.btn_l {
+    left: 20px;
+    /* font-family: "DejaVu Sans"; */
+    background-color: white;
+    color: black;
+    /* height: 20px;
+    width: 30px;*/
+    border: 1px solid rgb(172, 170, 170);
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    font-size: smaller;
+}
